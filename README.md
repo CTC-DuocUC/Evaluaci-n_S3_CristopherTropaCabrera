@@ -25,7 +25,7 @@ SpeedFast-Semana8/
 ## Cómo ejecutarlo
 
 1. **Base de datos:** en MySQL Workbench abre y ejecuta `bd/speedfast_db.sql`. Opcionalmente ejecuta después `bd/datos_ejemplo.sql`.
-2. **Contraseña:** abre `src/dao/ConexionDB.java` y reemplaza `tu_contraseña` por la clave de tu MySQL. No subas tu clave real a GitHub.
+2. **Contraseña:** abre `src/dao/ConexionDB.java` y reemplaza `mi_contraseña` por la clave de tu MySQL. No subas tu clave real a GitHub.
 3. **IntelliJ IDEA:** crea un proyecto Java, copia dentro las carpetas `src`, `lib` y `bd`, y agrega el conector: *File > Project Structure > Libraries > + > Java* y elige `lib/mysql-connector-j-26.7.0.jar`.
 4. Ejecuta `src/main/Main.java`.
 
